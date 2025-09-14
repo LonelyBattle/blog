@@ -24,7 +24,7 @@ import config from './src/site.config.ts'
 // https://astro.build/config
 export default defineConfig({
   // Top-Level Options
-  site: 'https://yourusername.github.io',
+  site: 'https://LonelyBattle.github.io',
   // Deploy to a sub path; See https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
   // base: '/astro-theme-pure/',
   trailingSlash: 'never',

@@ -8,8 +8,8 @@
 
 在部署前，请确保更新以下文件中的 URL：
 
-- `astro.config.ts` 第 27 行：将 `https://yourusername.github.io` 替换为你的实际 GitHub Pages URL
-- `src/site.config.ts` 第 120-121 行：将 `https://yourusername.github.io/` 替换为你的实际 GitHub Pages URL
+- `astro.config.ts` 第 27 行：已设置为 `https://LonelyBattle.github.io`
+- `src/site.config.ts` 第 120-121 行：已设置为 `https://LonelyBattle.github.io/`
 
 ### 2. 启用 GitHub Pages
 
@@ -33,7 +33,7 @@ git push origin main
 
 1. 进入你的仓库的 "Actions" 标签
 2. 查看 "Deploy to GitHub Pages" 工作流的状态
-3. 部署成功后，你的网站将在 `https://yourusername.github.io` 可用
+3. 部署成功后，你的网站将在 `https://LonelyBattle.github.io` 可用
 
 ## 本地测试
 
@@ -58,3 +58,11 @@ npm run preview
 2. 确保所有依赖都已正确安装
 3. 检查 `astro.config.ts` 中的配置是否正确
 4. 确保仓库有正确的权限设置
+5. 如果出现 "No lockfile found" 错误，确保 `bun.lock` 文件已提交到仓库
+
+## 常见问题
+
+### 包管理器错误
+如果遇到包管理器相关的错误，确保：
+- `bun.lock` 文件已提交到仓库
+- GitHub Actions 工作流中正确配置了 `package-manager: bun@latest`

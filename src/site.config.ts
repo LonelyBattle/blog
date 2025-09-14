@@ -117,8 +117,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://yourusername.github.io/' },
-      { name: 'Avatar', val: 'https://yourusername.github.io/favicon/favicon.ico' }
+      { name: 'Link', val: 'https://LonelyBattle.github.io/' },
+      { name: 'Avatar', val: 'https://LonelyBattle.github.io/favicon/favicon.ico' }
     ]
   },
   // Enable page search function
