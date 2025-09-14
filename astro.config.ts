@@ -26,7 +26,7 @@ export default defineConfig({
   // Top-Level Options
   site: 'https://LonelyBattle.github.io/blog/',
   // Deploy to a sub path; See https://astro-pure.js.org/docs/setup/deployment#platform-with-base-path
-  // base: '/astro-theme-pure/',
+  base: '/blog/',
   trailingSlash: 'never',
 
   // Adapter

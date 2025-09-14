@@ -31,7 +31,7 @@ export const theme: ThemeUserConfig = {
   // === Global configuration ===
   titleDelimiter: '•',
   prerender: true,
-  npmCDN: 'https://cdn.jsdelivr.net/npm',
+  npmCDN: 'https://unpkg.com',
 
   // Still in test
   head: [
@@ -42,7 +42,7 @@ export const theme: ThemeUserConfig = {
     //   content: ''
     // }
   ],
-  customCss: [],
+  customCss: ['/styles/global.css'],
 
   /** Configure the header of your site. */
   header: {
